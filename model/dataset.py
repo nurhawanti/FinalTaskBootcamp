@@ -3,6 +3,8 @@ import os
 import numpy as np
 import glob
 
+#sumber dataset: http://vis-www.cs.umass.edu/
+
 def load_data(root_path, image_size, mode, normalized):
     images = []
     labels = []
